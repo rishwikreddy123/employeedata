@@ -1,0 +1,8 @@
+{
+    "employeeData": {
+        "getAll": "https://hellosummerinternsmongodb.herokuapp.com/intern",
+        "post": "https://hellosummerinternsmongodb.herokuapp.com/intern",
+        "put": "https://hellosummerinternsmongodb.herokuapp.com/intern",
+        "delete": "https://hellosummerinternsmongodb.herokuapp.com/intern"
+    }
+}
