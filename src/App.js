@@ -99,7 +99,17 @@ export default function App() {
   const [salary, setSalary] = React.useState("");
   const [managerId, setManagerId] = React.useState("");
   const [departmentId, setDepartmentId] = React.useState("");
-  const handleClose = () => { setOpen(false); };
+  const handleClose = () => {
+     setOpen(false);
+     setEmployeeId("")
+     setFirstName("")
+     setLastName("")
+     setPhoneNumber("")
+     setJobId("")
+     setSalary("")
+     setManagerId("")
+     setDepartmentId("")
+     };
   const handleClose2 = () => {setOpenView(false);};
 
   const getAllRecords = () => {
